@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inverseMode"
+    tools:context=".SelectActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:elevation="15dp"
+        android:padding="10dp"
+        android:outlineSpotShadowColor="@color/mode"
+        android:background="@drawable/bottom_shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageview_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="400dp"
+            android:maxWidth="200dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/splash_logo">
+        </ImageView>
+        <TextView
+            android:id="@+id/textView_main_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/imageview_logo"
+            android:text="Welcome\nto\nFix My Road"
+            android:fontFamily="@font/nunitobold"
+            android:textColor="@color/mode"
+            android:textSize="35sp"
+            android:elevation="10dp"
+            android:shadowColor="@color/mode"
+            android:shadowDy="5"
+            android:shadowRadius="10"></TextView>
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_main_head"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button_shape"
+            android:elevation="50dp"
+            android:fontFamily="@font/nunitobold"
+            android:paddingLeft="25dp"
+            android:paddingTop="15dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="15dp"
+            android:shadowColor="@color/white"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="20dp"></Button>
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_login"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button_shape"
+            android:elevation="50dp"
+            android:fontFamily="@font/nunitobold"
+            android:paddingLeft="25dp"
+            android:paddingTop="15dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="15dp"
+            android:shadowColor="@color/white"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="20dp"></Button>
+
+        <Button
+            android:id="@+id/button_login_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/button_register"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/nunitobold"
+            android:text="Login As Admin"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:elevation="50dp"
+            android:shadowColor="@color/white"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:paddingRight="25dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"></Button>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

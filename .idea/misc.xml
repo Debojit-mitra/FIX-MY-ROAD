@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable-v24/button_shape3_green.xml" value="0.116" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable-v24/button_shape_grey.xml" value="0.1" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable-v24/ic_profile_loadimage.xml" value="0.116" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/border_edttext.xml" value="0.15" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/bottom_nav_shape.xml" value="0.1505" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/bottom_shape.xml" value="0.15" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/button_shape.xml" value="0.15" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/button_shape2.xml" value="0.128" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/button_shape3_red.xml" value="0.148" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_delete.xml" value="0.1285" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_edit.xml" value="0.134" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_hide_password_24.xml" value="0.15" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_home_24.xml" value="0.1285" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_launcher_background.xml" value="0.116" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_menu.xml" value="0.148" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_mobile_button.xml" value="0.134" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_photo_camera.xml" value="0.1635" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_profile.xml" value="0.15" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_refresh.xml" value="0.134" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_show_password_24.xml" value="0.15" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_star_border_black_24dp.xml" value="0.1285" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/ic_work_24.xml" value="0.15" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/splash_screen_logo_layout.xml" value="0.15" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/drawable/splashscreen_shape.xml" value="0.15" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout-sw600dp/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_admin_login.xml" value="0.1586582048957389" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_admin_main.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_app_intro.xml" value="0.1" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_change_password.xml" value="0.2" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_delete_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_edit_email.xml" value="0.2" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_edit_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_forgot_password.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_otp_verify.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_registration.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_report_photo_upload.xml" value="0.14621633176571183" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_select.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_upload_profile_picture.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/activity_user_profile_setting.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/fragment_home.xml" value="0.225531914893617" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/fragment_reports.xml" value="0.4" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/fragment_solved.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/fragment_workinprogress.xml" value="0.16" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/header.xml" value="0.1513467293715263" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/reports.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/reports_solved.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/layout/reports_unsolved.xml" value="0.264" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/menu/profile_menu.xml" value="0.184375" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.133" />
+        <entry key="..\:/Users/Deboj/AndroidStudioProjects/FixMyRoad/app/src/main/res/xml/filepaths.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

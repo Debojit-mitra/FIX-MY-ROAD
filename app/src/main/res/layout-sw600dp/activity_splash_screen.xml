@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inverseMode"
+    tools:context=".SplashScreenActivity">
+
+    <LinearLayout
+        android:id="@+id/splash_screen_liner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:layout_marginBottom="204dp"
+        android:background="@drawable/splashscreen_shape"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:outlineSpotShadowColor="@color/mode"
+        app:layout_constraintBottom_toTopOf="@+id/developedby"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="166dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/splash_logo">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/splash_fix_my_road"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunitobold"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="FIX MY ROAD"
+            android:textColor="@color/mode"
+            android:textSize="38dp"></TextView>
+
+        <TextView
+            android:id="@+id/splash_slogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunitoregular"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="Way to a Better Future"
+            android:textColor="@color/mode"
+            android:textSize="30dp"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/developedby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/nunitobold"
+        android:gravity="center"
+        android:shadowColor="@color/mode"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="Developed By \nDHN GROUP"
+        android:textColor="@color/mode"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

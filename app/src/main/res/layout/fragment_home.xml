@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.HomeFragment"
+    android:background="@color/inverseMode"
+    android:orientation="vertical"
+    android:id="@+id/scrollview_home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/bottom_shape"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textview_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunitobold"
+                android:padding="15dp"
+                android:gravity="center"
+                android:text="HOME"
+                android:textColor="@color/mode"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/bottom_shape"
+            android:layout_gravity="center">
+
+
+
+            <!-- <ImageView
+                 android:id="@+id/userprofile_refresh"
+                 android:layout_width="30dp"
+                 android:layout_height="30dp"
+                 android:layout_alignParentRight="true"
+                 android:src="@drawable/ic_refresh"></ImageView>-->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imageview_cardview"
+                app:cardBackgroundColor="@color/navbar_color"
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="12dp"
+                android:elevation="32dp">
+            <ImageView
+                android:id="@+id/imageView1_reports"
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_photo_camera" />
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/maps_home_layout"
+                android:layout_width="1000dp"
+                android:layout_height="500dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/imageview_cardview"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bottom_nav_shape"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:cardCornerRadius="12dp"
+                    android:elevation="22dp">
+
+                <fragment
+                    android:id="@+id/maps_home"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relative_for_date_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/maps_home_layout">
+
+                <TextView
+                    android:id="@+id/textview_report_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="18dp"
+                    android:fontFamily="@font/nunitobold"
+                    android:gravity="left"
+                    android:text="Report No. : Retriving"
+                    android:textColor="@color/mode"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textview_report_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="@font/nunitobold"
+                    android:gravity="right"
+                    android:text="Date: Retriving"
+                    android:textColor="@color/mode"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textview_current_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative_for_date_report"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="18dp"
+                android:fontFamily="@font/nunitobold"
+                android:gravity="left"
+                android:text="Your Damaged Road Location"
+                android:textColor="@color/mode"
+                android:textSize="15sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/editText_current_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_current_location"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border_edttext"
+                android:editable="false"
+                android:hint="Press button to get location"
+                android:padding="10dp"
+                android:textSize="16sp"></EditText>
+
+            <EditText
+                android:id="@+id/editText_current_location_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText_current_location"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border_edttext"
+                android:editable="false"
+                android:hint="Press button to get location"
+                android:padding="10dp"
+                android:textSize="16sp"></EditText>
+
+            <Button
+                android:id="@+id/buttonto_get_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText_current_location_address"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_shape"
+                android:fontFamily="@font/nunitobold"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="20dp"
+                android:text="Get Location"
+                android:textColor="@color/white"
+                android:textSize="18dp"></Button>
+
+            <TextView
+                android:id="@+id/textview_report_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonto_get_location"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:fontFamily="@font/nunitobold"
+                android:gravity="left"
+                android:text="Description"
+                android:textColor="@color/mode"
+                android:textSize="15sp"></TextView>
+
+            <EditText
+                android:id="@+id/editText_report_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_report_desc"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border_edttext"
+                android:hint="Enter Description"
+                android:inputType="textCapSentences|textMultiLine"
+                android:padding="10dp"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                android:maxLength="2000"
+                ></EditText>
+
+            <Button
+                android:id="@+id/button_save_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText_report_desc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_shape"
+                android:fontFamily="@font/nunitobold"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="20dp"
+                android:text="Upload Report"
+                android:textColor="@color/white"
+                android:textSize="18dp"></Button>
+
+
+            <TextView
+                android:id="@+id/textview_max_limit_reached"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/button_save_report"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/nunitobold"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/spin_kit"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/editText_report_desc"
+                android:elevation="100dp"
+                android:visibility="gone"
+                app:SpinKit_Color="@color/red" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

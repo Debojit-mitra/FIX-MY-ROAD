@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "183061888001",
+    "project_id": "fix-my-road-13c17",
+    "storage_bucket": "fix-my-road-13c17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183061888001:android:104955ef2fe987afc9d400",
+        "android_client_info": {
+          "package_name": "com.bunny.fixmyroad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183061888001-jutsk6l9qmomfqrsfqefd012b85egpb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgG8CDOJd5MV7XctLl79H2cTuTnYv4s80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183061888001-jutsk6l9qmomfqrsfqefd012b85egpb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/inverseMode"
+    tools:context=".profileActivities.DeleteProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bottom_shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_delete_user_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/nunitobold"
+            android:gravity="center"
+            android:text="Delete Profile"
+            android:textColor="@color/mode"
+            android:textSize="25dp"></TextView>
+
+        <TextView
+            android:id="@+id/textview_delete_user_decs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_delete_user_head"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/nunitoregular"
+            android:gravity="center"
+            android:text="You can delete your profile and all related data after authenticating"
+            android:textColor="@color/mode"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:id="@+id/textview_delete_user_current"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_delete_user_decs"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="18dp"
+            android:fontFamily="@font/nunitobold"
+            android:gravity="left"
+            android:text="Current Password"
+            android:textColor="@color/mode"
+            android:textSize="15sp"></TextView>
+
+        <EditText
+            android:id="@+id/editText_delete_user_current"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_delete_user_current"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_edttext"
+            android:hint="Enter you current password to verify"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="16sp"></EditText>
+
+
+        <Button
+            android:id="@+id/button_delete_user_authenticate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText_delete_user_current"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/nunitobold"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="10dp"
+            android:text="Authenticate"
+            android:textColor="@color/white"
+            android:textSize="20dp"></Button>
+
+        <View
+            android:id="@+id/divider_delete_profile"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/button_delete_user_authenticate"
+            android:layout_marginTop="30dp"
+            android:background="@color/button_grey"></View>
+
+        <TextView
+            android:id="@+id/textview_delete_user_authenticated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_delete_profile"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/nunitoregular"
+            android:gravity="center"
+            android:text="You are not authenticated yet!\nTo delete your profile please authenticate."
+            android:textColor="@color/mode"
+            android:textSize="18dp"></TextView>
+
+
+        <Button
+            android:id="@+id/button_delete_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_delete_user_authenticated"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/nunitobold"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="10dp"
+            android:text="Delete User"
+            android:textColor="@color/white"
+            android:textSize="20dp"></Button>
+
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.Large.Circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:focusedByDefault="true"
+            android:elevation="100dp"
+            android:visibility="gone"
+            app:SpinKit_Color="@color/red" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,84 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.bunny.fixmyroad"
+        minSdk 22
+        targetSdk 32
+        versionCode 1
+        versionName "beta_Release_1.4.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.1.0'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+    implementation 'com.google.firebase:firebase-storage:20.1.0'
+    implementation 'com.google.firebase:firebase-firestore:24.4.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+
+    //circle image view
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+
+    // Material Dialog Library
+    implementation 'com.github.cazaea:sweet-alert-dialog:1.0.0'
+
+    //otp textview
+    implementation 'com.github.aabhasr1:OtpView:v1.1.2'
+
+    //map
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+
+    //for using adapter through firebase
+    implementation 'com.firebaseui:firebase-ui-database:8.0.2'
+
+    //sdp automatic screen size
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+    //no internet
+    implementation 'org.imaginativeworld.oopsnointernet:oopsnointernet:2.0.0'
+
+    //progress circle
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+
+    //for exiting the app on back pressed
+    implementation 'com.github.TutorialsAndroid:KAlertDialog:v20.2.4'
+
+    //image picker
+    implementation 'com.github.dhaval2404:imagepicker:2.1'
+
+    //image report zoom
+    implementation 'com.github.hsmnzaydn:imagezoom:1.5.0'
+
+    implementation 'com.github.muigukenneth:ElegantDialog:1.1.5'
+}
