@@ -52,9 +52,6 @@ dependencies {
     // Material Dialog Library
     implementation 'com.github.cazaea:sweet-alert-dialog:1.0.0'
 
-    //otp textview
-    implementation 'com.github.aabhasr1:OtpView:v1.1.2'
-
     //map
     implementation 'com.google.android.gms:play-services-location:21.0.1'
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
