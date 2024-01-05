@@ -26,7 +26,7 @@ I did this project as my BCA minor project.
 
 Here're some of the project's best features:
 
-* Report broken damaged road with a photo
+* Report broken damaged road with a photo and exact loacation using google maps api
 * Admin support
 * Firebase login and database
 
