@@ -2,7 +2,7 @@
 
 ![project-image](https://socialify.git.ci/Debojit-mitra/Fix-My-Road/image?font=Inter&language=1&name=1&owner=1&pattern=Floating%20Cogs&theme=Auto)
 
-I did this project as my BCA minor project.
+### FixMyRoad is a user-friendly mobile application that enables citizens to report road issues directly to the local authorities. Users can submit images and the precise location of road problems, such as potholes, cracks, or other damages, helping authorities to quickly identify and fix the issues, improving road safety and infrastructure. I did this project as my BCA minor project.
 
 ## Project Screenshots:
 
